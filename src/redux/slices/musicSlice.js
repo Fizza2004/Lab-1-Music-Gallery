@@ -23,9 +23,9 @@ const musicSlice = createSlice({
       } else{
         state.favoriteMusic.push(musicId);
       }
-    }
-  }
-})
+    },
+  },
+});
 
 // Action creators are generated for each case reducer function
 export const { toggleFavorite } = musicSlice.actions;

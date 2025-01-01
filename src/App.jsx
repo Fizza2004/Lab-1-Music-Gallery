@@ -1,7 +1,7 @@
 import './App.css';
-import AllMusics from './components/AllMusics/index.jsx';
-import Favorites from './components/Favorites/index.jsx';
-import NavigationBar from './components/NavigationBar/index.jsx';
+import AllMusics from './components/AllMusics';
+import Favorites from './components/Favorites';
+import NavigationBar from './components/NavigationBar';
 import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 
 function App() {
